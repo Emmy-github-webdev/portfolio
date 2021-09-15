@@ -6,8 +6,9 @@
 }
 
 html {
-    font: normal 16px sans-serif;
-    color: #555; 
+    font-family: "Poppins";
+    font-style: normal;
+    
 }
 
 nav ul {
@@ -24,6 +25,7 @@ a:hover {
 
 /*Header Styles*/
 
+
 header {
     display: flex;
     justify-content: space-between;
@@ -32,14 +34,49 @@ header {
 }
 
 header h2 {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Poppins";
+    position: static;
+    width: 76px;
+    height: 20px;
+    left: 12px;
+    top: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6070FF;
 }
 
 header nav ul {
     display: flex;
     margin-right: -15px;
+    
+
+}
+
+header nav ul li {
+    color: #344563;   
+
 }
 
 header nav li {
     margin: 0 15px;
 } 
+
+section .rectangle-6 {
+    position: absolute;
+    width: 108.67px;
+    height: 19.44px;
+    left: 34.6px;
+    top: 218.92px;
+}
+
+section .eclipse-11{
+    position: absolute;
+    width: 80.48px;
+    height: 40.24px;
+    left: 139.2px;
+    top: 260.68px;
+    background: #6070FF;
+    transform: rotate(-156.88deg);
+}
