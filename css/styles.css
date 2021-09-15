@@ -1,0 +1,45 @@
+/*General Styles*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    font: normal 16px sans-serif;
+    color: #555; 
+}
+
+nav ul {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+/*Header Styles*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 100px 0;
+}
+
+header h2 {
+    font-family: "Quicksand", sans-serif;
+}
+
+header nav ul {
+    display: flex;
+    margin-right: -15px;
+}
+
+header nav li {
+    margin: 0 15px;
+} 
