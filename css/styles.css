@@ -28,12 +28,12 @@ body {
   bottom: 0;
   padding: 8px;
 }
+
 .logo {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-
   position: absolute;
   width: 100px;
   height: 40px;
@@ -67,7 +67,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 114px 24px;
-
   position: absolute;
   width: 375px;
   height: 604px;
@@ -188,7 +187,6 @@ body {
   height: 30.1px;
   left: 332.18px;
   top: 540.44px;
-
   background: #ebebff;
   transform: rotate(69.41deg);
 }
@@ -238,7 +236,7 @@ body {
   order: 1;
   flex-grow: 0;
   margin: 12px 0;
-}
+  }
 
 .let-chat h6 {
   display: flex;
@@ -246,7 +244,6 @@ body {
   align-items: center;
   padding: 0px;
   color: #7f8cff;
-
   position: static;
   width: 117px;
   height: 24px;
