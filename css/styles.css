@@ -1,12 +1,11 @@
 
-
 /*General Styles*/
 
 * {
     margin: 0;
     padding: 0;
   }
-  body {
+/*   body {
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -14,15 +13,6 @@
     line-height: 20px;
       
   }
-
-  /* .nav-container {
-    position: absolute;
-    width: 375px;
-    height: 718px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-  } */
 
   .nav-container {
     position: absolute;
@@ -89,15 +79,6 @@
     left: calc(50% - 375px/2);
     top: 92px;
   }
-
-/*   .hero {
-    
-    position: absolute;
-    width: 462px;
-    height: 587.15px;
-    top: 104px;
-    display: flex;
-} */
 
 .rectangle-4 {
     position: absolute;
@@ -228,35 +209,19 @@ transform: rotate(-176.08deg);
 
   
 .text h1 {
-/* Primary Text */
-
-
- 
- position: static;
+position: static;
 width: 327px;
 height: 150px;
 left: 24px;
 top: 114px;
-
-/* Header / 2 */
-
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 40px;
 line-height: 52px;
-/* or 130% */
-
 display: flex;
 align-items: center;
-
-/* Neutrals/N800 */
-
 color: #172B4D;
-
-
-/* Inside Auto Layout */
-
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -264,42 +229,22 @@ margin: 12px 0px;
 
 }
 
-.text p { 
-
-    /* Primary Text */
-
-
+.text p {
 position: static;
 width: 327px;
 height: 146px;
 left: 24px;
 top: 276px;
-
-/* Body / 2 */
-
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 24px;
-/* or 150% */
-
-
-/* Neutrals/N600 */
-
 color: #344563;
-
-
-/* Inside Auto Layout */
-
 flex: none;
 order: 1;
 flex-grow: 0;
 margin: 12px 0px;
-}
-
-.hero .let-chat {
-
 }
 
 .let-chat h6 {
@@ -317,19 +262,13 @@ top: 0px;
 }
 
 .let-chat p {
-
-
 position: static;
 width: 170.17px;
 height: 20px;
 left: 24px;
 top: 470px;
-
-
-/* Inside Auto Layout */
-
 flex: none;
 order: 3;
 flex-grow: 0;
 margin: 12px 0px;
-}
+} */
