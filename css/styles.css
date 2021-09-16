@@ -1,26 +1,24 @@
 
-/*General Styles*/
-
 * {
-    margin: 0;
-    padding: 0;
-  }
-/*   body {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
-      
-  }
+margin: 0;
+padding: 0;
+}
 
-  .nav-container {
-    position: absolute;
-    width: 375px;
-    height: 92px;
-    left: 0px;
-    top: 0px;
-  }
+body {
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 20px;
+}
+
+.nav-container {
+position: absolute;
+width: 375px;
+height: 92px;
+left: 0px;
+top: 0px;
+}
 
   .wrapper {
     position: absolute;
@@ -271,4 +269,4 @@ flex: none;
 order: 3;
 flex-grow: 0;
 margin: 12px 0px;
-} */
+}
