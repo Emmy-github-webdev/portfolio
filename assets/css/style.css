@@ -881,7 +881,6 @@ section .about-content {
   top: calc(50% - 40px / 2);
   border-radius: 8px;
   background: #e7eaef;
-  border-radius: 4px;
 }
 
 .fa-caret-down {
@@ -890,7 +889,7 @@ section .about-content {
   right: 25%;
   top: 37.5%;
   bottom: 37.5%;
-  border: 2px solid #acb7c3
+  border: 2px solid #acb7c3;
 }
 
 .list-language {
@@ -921,6 +920,6 @@ section .about-content {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0p;
-  align-items: center
+  margin: 12px 0;
+  align-items: center;
 }
