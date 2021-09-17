@@ -1,13 +1,13 @@
-/*General styling*/
+
 html {
   box-sizing: border-box;
   font-size: 10px;
   overflow: hidden;
 }
 
-
-*, *:before, *:after {
-  box-sizing: inherit;
+*{
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -24,8 +24,6 @@ a {
 ul {
   list-style: none;
 }
-
-/*Wrapper styling*/
 
 .wrapper {
   position: absolute;
@@ -52,7 +50,7 @@ nav {
   width: 40px;
   height: 60px;
   right: 24px;
-  top: calc(40% - 40px/2);
+  top: calc(40% - 40px / 2);
   border-radius: 8px;
 }
 
@@ -73,7 +71,7 @@ nav img {
   width: 100px;
   height: 40px;
   left: 12px;
-  top: calc(50% - 40px/2);
+  top: calc(50% - 40px / 2);
 }
 
 .logo img {
@@ -139,7 +137,7 @@ nav img {
   height: 22.02px;
   left: 324px;
   top: 73.79px;
-  background: #EBEBFF;
+  background: #ebebff;
   transform: rotate(-30deg);
 }
 
@@ -149,7 +147,6 @@ nav img {
   height: 100px;
   left: 328px;
   top: 152.24px;
-  
 }
 
 .ellipse-15 {
@@ -157,7 +154,7 @@ nav img {
   width: 15px;
   height: 15px;
   left: 53px;
-  border: 1px solid #CBCDFF;
+  border: 1px solid #cbcdff;
   box-sizing: border-box;
   background: #FFF;
 }
@@ -167,19 +164,20 @@ nav img {
   width: 11px;
   height: 11px;
   left: 298px;
-  border: 1px solid #CBCDFF;
+  border: 1px solid #cbcdff;
   box-sizing: border-box;
-  background: #FFF;
+  background: #fff;
 }
+
 .ellipse-8 {
   position: absolute;
   width: 15px;
   height: 15px;
   left: 214px;
   top: 110px;
-  border: 1px solid #CBCDFF;
+  border: 1px solid #cbcdff;
   box-sizing: border-box;
-  background: #FFF;
+  background: #fff;
 }
 
 .ellipse-11 {
@@ -189,7 +187,7 @@ nav img {
   left: 16.04px;
   top: 73.47px;
   transform: rotate(-156.88deg);
-  background: #6070FF;
+  background: #6070ff;
 }
 
 .rectangle-6 {
@@ -199,7 +197,7 @@ nav img {
   left: -34px;
   top: 141.49px;
   transform: rotate(-46.14deg);
-  background: #EBEBFF;
+  background: #ebebff;
 }
 
 .ellipse-12 {
@@ -208,7 +206,7 @@ nav img {
   height: 12.07px;
   left: 341.76px;
   top: 546.69px;
-  background: #6070FF;
+  background: #6070ff;
   transform: rotate(-176.08deg);
 }
 
@@ -216,9 +214,7 @@ nav img {
   position: absolute;
   width: 30.1px;
   height: 30.1px;
-  left: 366.18px;
-  top: 448.44px;
-  background: #EBEBFF;
+  background: #ebebff;
   transform: rotate(69.41deg);
 }
 
@@ -228,7 +224,7 @@ nav img {
   height: 20px;
   left: 271px;
   top: 565.1px;
-  background: #6070FF;
+  background: #6070ff;
 }
 
 .rectangle-5 {
@@ -237,7 +233,7 @@ nav img {
   height: 12.18px;
   left: 225.82px;
   top: 561px;
-  background: #EBEBFF;
+  background: #ebebff;
   transform: rotate(23.34deg);
 }
 
@@ -247,17 +243,14 @@ nav img {
   height: 10px;
   left: 166.98px;
   top: 63.81px;
-  background: #CBCDFF;
+  background: #cbcdff;
   transform: rotate(52.97deg);
-}
-
-.rectangle-7 {
   position: absolute;
   width: 26.46px;
   height: 4.73px;
   left: 161.18px;
   top: 59.58px;
-  background: #6070FF;
+  background: #6070ff;
   transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
 }
 
@@ -289,7 +282,7 @@ nav img {
   font-size: 10px;
   line-height: 14px;
   text-align: center;
-  color: #7F8CFF;
+  color: #7F8cff;
   flex: none;
   order: 0;
   flex-grow: 0;
