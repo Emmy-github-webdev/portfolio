@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  overflow: hidden;
+  height: 100%;
+  margin: auto;
 }
 
 * {
@@ -81,9 +82,9 @@ nav img {
   top: 10px;
 }
 
-.wrapper > * {
+/* .wrapper > * {
   flex: 1 1 auto;
-}
+} */
 
 .content {
   display: flex;
