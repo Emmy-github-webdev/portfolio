@@ -295,3 +295,115 @@ nav img {
   margin: 12px 4px;
   justify-content: space-between;
 }
+
+section .work-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  position: absolute;
+  width: 327px;
+  height: 2788px;
+  left: 0px;
+  top: 718px;
+  background: #ebebff;
+}
+
+.work-content .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  position: static;
+  width: 327px;
+  height: 552px;
+  left: calc(50% - 327px/2);
+  top: 114px;
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 88px 0px;
+}
+
+.work-content .card .card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 295px;
+  height: 288px;
+  left: 16px;
+  top: 248px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.card-text .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 295px;
+  height: 80px;
+  left: 0px;
+  top: calc(50% - 80px/2 - 104px);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.card-text .text h3 {
+  position: static;
+  width: 295px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+}
+
+.card-text .text .frame-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 236px;
+  height: 32px;
+  left: 0px;
+  top: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.card-text .text .frame-2 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0px;
+  position: static;
+  width: 55px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
