@@ -922,4 +922,39 @@ section .about-content {
   flex-grow: 0;
   margin: 12px 0;
   align-items: center;
+  justify-content: space-between;
+}
+
+.list-language-2 {
+  position: static;
+  justify-content: space-between;
+  display: flex;
+  width: 303px;
+  height: 66.72px;
+  left: 12px;
+  top: 90.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
+  align-items: center;
+}
+
+.list-language-3 {
+  justify-content: space-between;
+  display: flex;
+  position: static;
+  width: 303px;
+  height: 66.72px;
+  left: 12px;
+  top: 169.43px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0;
+  align-items: center;
 }
