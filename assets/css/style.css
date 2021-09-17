@@ -372,7 +372,7 @@ section .work-content {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-  color: #172bdD;
+  color: #172bdd;
 }
 
 .card-text .text .frame-2 {
@@ -472,25 +472,25 @@ section .work-content {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   position: static;
   width: 29px;
   height: 32px;
   left: 207px;
-  top: 0px;
+  top: 0;
   flex: none;
   order: 4;
   flex-grow: 0;
-  margin: 0px 12px;
+  margin: 0 12px;
 }
 
 .year h6 {
   position: static;
   width: 29px;
   height: 16px;
-  left: 0px;
+  left: 0;
   top: 8px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -506,7 +506,7 @@ section .work-content {
   position: static;
   width: 295px;
   height: 76px;
-  left: 0px;
+  left: 0;
   top: 92px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -616,7 +616,7 @@ ul .tag-3 {
   width: 89px;
   height: 24px;
   left: 114px;
-  top: 0px;
+  top: 0;
   background: #ebebff;
   border-radius: 8px;
   flex: none;
@@ -821,7 +821,7 @@ section .about-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   position: static;
   width: 327px;
   height: 464.15px;
@@ -874,20 +874,20 @@ section .about-content {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 .languages .title .dropdown-lang {
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 8px;
-position: absolute;
-width: 40px;
-height: 40px;
-right: 26px;
-top: calc(50% - 40px / 2);
-border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 26px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
 }
 
 .dropdown-lang .dropdown-icon {
