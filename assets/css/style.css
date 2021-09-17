@@ -281,16 +281,3 @@ nav img {
   margin: 0 8px;
 }
 
-.let-talk-text ul {
-  position: static;
-  display: flex;
-  width: 170.17px;
-  height: 20px;
-  left: 0;
-  top: 470px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  margin: 12px 4px;
-  justify-content: space-between;
-}
