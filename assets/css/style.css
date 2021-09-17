@@ -940,7 +940,7 @@ section .about-content {
   margin: 12px 0;
 }
 
-.language-list .js-image h6 {
+.js-image h6 {
   position: absolute;
   height: 100.72px;
   left: 200px;
@@ -970,7 +970,7 @@ section .about-content {
   margin: 12px 0;
 }
 
-.htm-image h6 {
+.language-list .htm-image h6 {
   position: absolute;
   height: 230.72px;
   left: 200px;
@@ -1000,7 +1000,7 @@ section .about-content {
   margin: 12px 0;
 }
 
-.css-image h6 {
+.skills .languages .title.css-image h6 {
   position: absolute;
   height: 370px;
   left: 200px;
