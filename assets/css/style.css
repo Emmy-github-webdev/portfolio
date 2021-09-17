@@ -5,7 +5,7 @@ html {
   overflow: hidden;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -105,7 +105,7 @@ nav img {
   top: 114px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -156,7 +156,7 @@ nav img {
   left: 53px;
   border: 1px solid #cbcdff;
   box-sizing: border-box;
-  background: #FFF;
+  background: #fff;
 }
 
 .ellipse-14 {
@@ -241,13 +241,7 @@ nav img {
   position: absolute;
   width: 11px;
   height: 10px;
-  left: 166.98px;
-  top: 63.81px;
-  background: #cbcdff;
   transform: rotate(52.97deg);
-  position: absolute;
-  width: 26.46px;
-  height: 4.73px;
   left: 161.18px;
   top: 59.58px;
   background: #6070ff;
@@ -282,7 +276,7 @@ nav img {
   font-size: 10px;
   line-height: 14px;
   text-align: center;
-  color: #7F8cff;
+  color: #7f8cff;
   flex: none;
   order: 0;
   flex-grow: 0;
