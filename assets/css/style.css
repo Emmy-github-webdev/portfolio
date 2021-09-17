@@ -345,6 +345,23 @@ section .work-content {
   margin: 12px 0;
 }
 
+.card-text ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 203px;
+  height: 24px;
+  left: 0;
+  top: 180px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0;
+  list-style: none;
+}
+
 .card-text .text {
   display: flex;
   flex-direction: column;
@@ -520,21 +537,22 @@ section .work-content {
   margin: 12px 0;
 }
 
-.card-text ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
+.social-heading h6 {
   position: static;
-  width: 203px;
+  width: 117px;
   height: 24px;
   left: 0;
-  top: 180px;
+  top: 0;
+  font-family: Poppins sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #7f8cff;
   flex: none;
-  order: 2;
+  order: 0;
   flex-grow: 0;
-  margin: 12px 0;
-  list-style: none;
+  margin: 0 8px;
 }
 
 ul .tag-1 {
@@ -579,9 +597,9 @@ ul .tag-2 {
   width: 45px;
   height: 24px;
   left: 61px;
-  top: 0;  
+  top: 0;
   background: #ebebff;
-  border-radius: 8px;  
+  border-radius: 8px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -594,7 +612,7 @@ ul .tag-2 h6 {
   height: 16px;
   left: 12px;
   top: 4px;
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -655,7 +673,7 @@ ul .tag-3 h6 {
   flex-grow: 0;
   margin: 12px 0;
 }
- 
+
 .action button {
   display: flex;
   flex-direction: row;
@@ -686,7 +704,7 @@ ul .tag-3 h6 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-} 
+}
 
 section .about-content {
   display: flex;
@@ -786,24 +804,6 @@ section .about-content {
   margin: 16px 0;
 }
 
-.social-heading h6 {
-  position: static;
-  width: 117px;
-  height: 24px;
-  left: 0;
-  top: 0;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 24px;
-  color: #7f8cff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0 8px;
-}
-
 .about-top .action {
   position: static;
   width: 295px;
@@ -867,7 +867,7 @@ section .about-content {
   left: 12px;
   right: 78px;
   top: calc(50% - 24px / 2);
-  font-family: Poppins;
+  font-family: Poppins sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -954,11 +954,11 @@ section .about-content {
   left: 200px;
   right: 10px;
   top: calc(50% - 24px / 2 - 0.36px);
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 20px;  
+  line-height: 20px;
   display: flex;
   align-items: center;
   color: #253858;
@@ -1029,7 +1029,7 @@ section .about-content {
   width: 327px;
   height: 72px;
   left: 0;
-  top: 320.15px; 
+  top: 320.15px;
   flex: none;
   order: 1;
   flex-grow: 0;
