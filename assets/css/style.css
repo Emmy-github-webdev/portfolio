@@ -82,10 +82,6 @@ nav img {
   top: 10px;
 }
 
-.wrapper > * {
-  flex: 1 1 auto;
-} 
-
 .content {
   display: flex;
   flex-direction: column;
@@ -543,7 +539,7 @@ section .work-content {
   height: 24px;
   left: 0;
   top: 0;
-  font-family: Poppins sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -555,7 +551,7 @@ section .work-content {
   margin: 0 8px;
 }
 
-ul .tag-1 {
+.tag-1 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -573,7 +569,7 @@ ul .tag-1 {
   margin: 0 8px;
 }
 
-ul .tag-1 h6 {
+.tag-1 h6 {
   position: static;
   width: 29px;
   height: 16px;
@@ -588,7 +584,7 @@ ul .tag-1 h6 {
   color: #6070ff;
 }
 
-ul .tag-2 {
+.tag-2 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -606,7 +602,7 @@ ul .tag-2 {
   margin: 0 8px;
 }
 
-ul .tag-2 h6 {
+.tag-2 h6 {
   position: static;
   width: 21px;
   height: 16px;
@@ -625,7 +621,7 @@ ul .tag-2 h6 {
   margin: 0 0;
 }
 
-ul .tag-3 {
+.tag-3 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -643,7 +639,7 @@ ul .tag-3 {
   margin: 0 8px;
 }
 
-ul .tag-3 h6 {
+.tag-3 h6 {
   position: static;
   width: 65px;
   height: 16px;
@@ -861,7 +857,7 @@ section .about-content {
   margin: 0 0;
 }
 
-.languages .title h6 {
+.skills .languages .title h6 {
   position: absolute;
   height: 24px;
   left: 12px;
