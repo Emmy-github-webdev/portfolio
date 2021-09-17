@@ -81,7 +81,7 @@ nav img {
   left: 12px;
   top: 10px;
 }
-
+/* 
 .content {
   display: flex;
   flex-direction: column;
@@ -91,7 +91,7 @@ nav img {
   width: 300px;
   height: 828px;
   top: 0;
-}
+} */
 
 .content h1 {
   position: static;
@@ -536,9 +536,6 @@ section .work-content {
 .social-heading h6 {
   position: static;
   width: 117px;
-  height: 24px;
-  left: 0;
-  top: 0;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -549,6 +546,22 @@ section .work-content {
   order: 0;
   flex-grow: 0;
   margin: 0 8px;
+}
+
+.framework-part h6 {
+  position: absolute;
+  height: 570px;
+  left: 20px;
+  right: 78px;
+  top: calc(50% - 24px / 2);
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
 }
 
 .tag-1 {
@@ -854,7 +867,7 @@ section .about-content {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0 0;
+  margin: 0 0;.language
 }
 
 .skills .languages .title h6 {
@@ -863,7 +876,7 @@ section .about-content {
   left: 12px;
   right: 78px;
   top: calc(50% - 24px / 2);
-  font-family: Poppins sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -912,22 +925,6 @@ section .about-content {
   order: 1;
   flex-grow: 0;
   margin: 0 0;
-}
-
-.framework-part h6 {
-  position: absolute;
-  height: 570px;
-  left: 20px;
-  right: 78px;
-  top: calc(50% - 24px / 2);
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #000;
 }
 
 .language-list .js-image {
