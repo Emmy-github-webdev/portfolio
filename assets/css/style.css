@@ -720,13 +720,13 @@ section .work-content {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-} 
+}
 
-.button-text:active {
+.action button .button-text:active {
   background-color: #396df2;
 }
 
-.button-text:hover {
+.action button .button-text:hover {
   background-color: #c1c7d0;
   border: 1px #396df2 solid;
 }
@@ -988,9 +988,14 @@ section .about-content {
   order: 1;
   flex-grow: 0;
   margin: 0 0;
-  align-items: center;
   padding: 10px 24px;
-  justify-content: space-around;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.frame-8 .fas {
+  padding-left: 250px;
 }
 
 .separator-1 {
@@ -1014,9 +1019,14 @@ section .about-content {
   order: 2;
   flex-grow: 0;
   margin: 0 0;
-  align-items: center;
   padding: 10px 24px;
-  justify-content: space-around;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.frame-9 .fas {
+  padding-left: 200px;
 }
 
 .separator-2 {
