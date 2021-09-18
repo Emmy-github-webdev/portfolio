@@ -704,11 +704,11 @@ section .work-content {
   color: #396df2;
 }
 
-.action button .button-text:active {
+button:active {
   background-color: #396df2;
 }
 
-.action button .button-text:hover {
+button:hover {
   background-color: #c1c7d0;
   border: 1px #396df2 solid;
 }
