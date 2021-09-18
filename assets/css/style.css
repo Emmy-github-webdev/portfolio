@@ -704,6 +704,15 @@ section .work-content {
   color: #396df2;
 }
 
+.action button .button-text:active {
+  background-color: #396df2;
+}
+
+.action button .button-text:hover {
+  background-color: #c1c7d0;
+  border: 1px #396df2 solid;
+}
+
 .action button .button-text {
   position: static;
   width: 100px;
@@ -722,14 +731,6 @@ section .work-content {
   color: #396df2;
 }
 
-.action button .button-text:active {
-  background-color: #396df2;
-}
-
-.action button .button-text:hover {
-  background-color: #c1c7d0;
-  border: 1px #396df2 solid;
-}
 
 section .about-content {
   display: flex;
@@ -737,7 +738,7 @@ section .about-content {
   align-items: center;
   padding: 114px 24px;
   position: absolute;
-  width: 323px;
+  width: 327px;
   height: 1125.15px;
   left: calc(50% - 375px / 2);
   top: 3806px;
