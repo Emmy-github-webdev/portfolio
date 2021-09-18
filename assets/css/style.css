@@ -958,3 +958,56 @@ section .about-content {
   margin: 12px 0;
   align-items: center;
 }
+
+.frame-8 {
+  display: flex;
+  position: static;
+  width: 327px;
+  height: 72px;
+  left: 0;
+  top: 320.15px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0 0;
+  align-items: center;
+  padding: 10px 24px;
+  justify-content: space-evenly;
+}
+
+.separator-1 {
+  position: absolute;
+  height: 1px;
+  left: 70px;
+  right: 0;
+  top: 1050.15px;
+  background: #dfe1e6;
+  align-items: center;
+}
+
+.frame-9 {
+  display: flex;
+  position: static;
+  width: 327px;
+  height: 72px;
+  left: 0px;
+  top: 392.15px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0 0;
+  align-items: center;
+  padding: 10px 24px;
+  justify-content: space-evenly;
+}
+
+.separator-2 {
+  position: absolute;
+  height: 1px;
+  top: 1150.15px;
+  left: 70px;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  background: #dfe1e6;
+}
