@@ -15,6 +15,7 @@ body {
   font-style: normal;
   margin: 0;
   font-size: 1.5rem;
+  background: #ebebff;
 }
 
 a {
@@ -31,6 +32,7 @@ ul {
   height: 90%;
   left: -34px;
   top: 92px;
+  background: #fff;
 }
 
 .header-wrapper {
@@ -39,6 +41,7 @@ ul {
   height: 92px;
   left: 34px;
   top: -92px;
+  background: #fff;
 }
 
 nav {
@@ -52,6 +55,7 @@ nav {
   right: 24px;
   top: calc(40% - 40px / 2);
   border-radius: 8px;
+  background: #fff;
 }
 
 nav img {
@@ -88,9 +92,10 @@ nav img {
   align-items: flex-start;
   padding: 114px 40px;
   position: absolute;
-  width: 300px;
+  width: 329px;
   height: 828px;
   top: 0;
+  background: #fff;
 }
 
 .content h1 {
@@ -691,10 +696,12 @@ section .work-content {
   width: 124px;
   height: 38px;
   left: 0;
-  top: calc(50% - 48px / 2);
+  top: calc(50% - 38px / 2);
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
+  background: #fff;
+  color: #396df2;
 }
 
 .action button .button-text {
@@ -713,6 +720,15 @@ section .work-content {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
+} 
+
+.button-text:active {
+  background-color: #396df2;
+}
+
+.button-text:hover {
+  background-color: #c1c7d0;
+  border: 1px #396df2 solid;
 }
 
 section .about-content {
@@ -724,7 +740,9 @@ section .about-content {
   width: 323px;
   height: 1125.15px;
   left: calc(50% - 375px / 2);
-  top: 3606px;
+  top: 3806px;
+  background: #fff;
+  border-top-right-radius: 50px;
 }
 
 .about-content .about-top {
@@ -972,7 +990,7 @@ section .about-content {
   margin: 0 0;
   align-items: center;
   padding: 10px 24px;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .separator-1 {
@@ -998,7 +1016,7 @@ section .about-content {
   margin: 0 0;
   align-items: center;
   padding: 10px 24px;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .separator-2 {
