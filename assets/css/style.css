@@ -293,7 +293,7 @@ nav img {
 }
 
 section .work-content {
-  display: flex;
+  display: grid;
   flex-direction: column;
   align-items: center;
   padding: 114px 24px;
@@ -962,7 +962,7 @@ section .about-content {
 .frame-8 {
   display: flex;
   position: static;
-  width: 327px;
+  width: 303px;
   height: 72px;
   left: 0;
   top: 320.15px;
@@ -988,7 +988,7 @@ section .about-content {
 .frame-9 {
   display: flex;
   position: static;
-  width: 327px;
+  width: 303px;
   height: 72px;
   left: 0;
   top: 392.15px;
