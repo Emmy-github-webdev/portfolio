@@ -990,7 +990,7 @@ section .about-content {
   position: static;
   width: 327px;
   height: 72px;
-  left: 0px;
+  left: 0;
   top: 392.15px;
   flex: none;
   order: 2;
