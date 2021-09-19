@@ -471,28 +471,6 @@ nav {
   margin: 12px 0;
 }
 
-.more-detail button h4 {
-  position: static;
-  width: 100px;
-  height: 24px;
-  left: 12px;
-  top: 12px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0 10px;
-}
-
 .work .card .work-content .work-title .frame-1 ul {
   display: flex;
   flex-direction: row;
@@ -819,6 +797,28 @@ nav {
   background: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
+}
+
+.more-detail button h4 {
+  position: static;
+  width: 100px;
+  height: 24px;
+  left: 12px;
+  top: 12px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 10px;
 }
 
 .about-me {
