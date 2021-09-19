@@ -489,6 +489,22 @@ nav {
   margin: 12px 0;
 }
 
+.frame-12 .frame-7 h3 {
+  position: absolute;
+  height: 24px;
+  left: 38px;
+  right: 67px;
+  top: calc(50% - 24px / 2);
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
 .about-content .skills .frame-8 h3 {
   position: absolute;
   height: 24px;
@@ -584,7 +600,6 @@ nav {
   border-radius: 8px;
 }
 
-
 .about-content .skills .frame-9 img {
   display: flex;
   flex-direction: row;
@@ -605,47 +620,6 @@ nav {
   left: 48px;
   top: 790px;
   border: 1px solid #fff;
-}
-
-.about-content .skills .frame-12 .language-list .frame-11 img {
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  left: 48px;
-  top: 880px;
-  border: 1px solid #fff;
-}
-
-.about-content .skills .frame-12 .language-list .frame-11 h3 {
-  position: absolute;
-  height: 24px;
-  margin-left: 30px;
-  right: 48px;
-  top: 900px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #253858;
-}
-
-.work .card .work-content .work-title .frame-1 .client {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 8px 0;
-  position: static;
-  width: 55px;
-  height: 32px;
-  left: 0;
-  top: 0;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0 12px;
 }
 
 .skills .frame-12 .language-list .frame-9 h3 {
@@ -678,6 +652,47 @@ nav {
   display: flex;
   align-items: center;
   color: #253858;
+}
+
+.about-content .skills .frame-12 .language-list .frame-11 h3 {
+  position: absolute;
+  height: 24px;
+  margin-left: 30px;
+  right: 48px;
+  top: 900px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+}
+
+.about-content .skills .frame-12 .language-list .frame-11 img {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 48px;
+  top: 880px;
+  border: 1px solid #fff;
+}
+
+.work .card .work-content .work-title .frame-1 .client {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0;
+  position: static;
+  width: 55px;
+  height: 32px;
+  left: 0;
+  top: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 12px;
 }
 
 .work .card .work-content .work-title .frame-1 .client h3 {
@@ -1085,11 +1100,7 @@ nav {
   color: #7f8cff;
 }
 
-.about-me
-  .about-content-top
-  .social-about
-  .social-text-about
-  .social-icon-about {
+.about-me .about-content-top .social-about .social-text-about .social-icon-about {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1263,22 +1274,6 @@ nav {
   margin: 0 0;
 }
 
-.frame-12 .frame-7 h3 {
-  position: absolute;
-  height: 24px;
-  left: 38px;
-  right: 67px;
-  top: calc(50% - 24px / 2);
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #000;
-}
-
 .about-content .skills .frame-12 .frame-7 .language-dropdown {
   display: flex;
   flex-direction: row;
@@ -1304,13 +1299,7 @@ nav {
   margin: 0 0;
 }
 
-.about-content
-  .skills
-  .frame-12
-  .frame-7
-  .language-dropdown
-  .dropdown-icon
-  img {
+.about-content .skills .frame-12 .frame-7 .language-dropdown .dropdown-icon img {
   position: absolute;
   width: 14px;
   height: 8px;
