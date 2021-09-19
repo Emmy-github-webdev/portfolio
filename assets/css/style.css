@@ -523,6 +523,22 @@ nav {
   margin: 12px 0;
 }
 
+.skills .frame-12 .language-list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  position: static;
+  width: 327px;
+  height: 248.15px;
+  left: 0;
+  top: 72px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0 0;
+}
+
 .work .card .work-content .work-title .frame-1 ul {
   display: flex;
   flex-direction: row;
@@ -552,6 +568,31 @@ nav {
   border-radius: 8px;
 }
 
+.about-content .skills .frame-12 .language-list .frame-11 img {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 48px;
+  top: 880px;
+  border: 1px solid #fff;
+}
+
+.about-content .skills .frame-12 .language-list .frame-11 h3 {
+  position: absolute;
+  height: 24px;
+  margin-left: 30px;
+  right: 48px;
+  top: 900px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+}
+
 .work .card .work-content .work-title .frame-1 .client {
   display: flex;
   flex-direction: row;
@@ -566,6 +607,60 @@ nav {
   order: 0;
   flex-grow: 0;
   margin: 0 12px;
+}
+
+.skills .frame-12 .language-list .frame-9 h3 {
+  position: absolute;
+  height: 24px;
+  margin-left: 36px;
+  right: 48px;
+  top: 710px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+}
+
+.about-content .skills .frame-9 img {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 26px;
+  top: 1090px;
+  border-radius: 8px;
+}
+
+.skills .frame-12 .language-list .frame-10 img {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 48px;
+  top: 790px;
+  border: 1px solid #fff;
+}
+
+.skills .frame-12 .language-list .frame-10 h3 {
+  position: absolute;
+  height: 24px;
+  margin-left: 30px;
+  right: 48px;
+  top: 800px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
 }
 
 .work .card .work-content .work-title .frame-1 .client h3 {
@@ -849,6 +944,7 @@ nav {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  background: #fff;
 }
 
 .work-content .more-detail button:active {
@@ -1166,19 +1262,6 @@ nav {
   color: #000;
 }
 
-.about-content .skills .frame-9 img {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 26px;
-  top: 1090px;
-  border-radius: 8px;
-}
-
 .frame-12 .frame-7 h3 {
   position: absolute;
   height: 24px;
@@ -1234,22 +1317,6 @@ nav {
   top: 8px;
 }
 
-.skills .frame-12 .language-list ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 12px;
-  position: static;
-  width: 327px;
-  height: 248.15px;
-  left: 0;
-  top: 72px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 0 0;
-}
-
 .skills .frame-12 .language-list .frame-9 {
   position: static;
   width: 303px;
@@ -1273,22 +1340,6 @@ nav {
   border: 1px solid #fff;
 }
 
-.skills .frame-12 .language-list .frame-9 h3 {
-  position: absolute;
-  height: 24px;
-  margin-left: 36px;
-  right: 48px;
-  top: 710px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #253858;
-}
-
 .skills .frame-12 .language-list .frame-10 {
   position: static;
   width: 303px;
@@ -1303,31 +1354,6 @@ nav {
   margin: 12px 0;
 }
 
-.skills .frame-12 .language-list .frame-10 img {
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  left: 48px;
-  top: 790px;
-  border: 1px solid #fff;
-}
-
-.skills .frame-12 .language-list .frame-10 h3 {
-  position: absolute;
-  height: 24px;
-  margin-left: 30px;
-  right: 48px;
-  top: 800px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #253858;
-}
-
 .skills .frame-12 .language-list .frame-11 {
   position: static;
   width: 303px;
@@ -1340,29 +1366,4 @@ nav {
   order: 2;
   flex-grow: 0;
   margin: 12px 0;
-}
-
-.about-content .skills .frame-12 .language-list .frame-11 img {
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  left: 48px;
-  top: 880px;
-  border: 1px solid #fff;
-}
-
-.about-content .skills .frame-12 .language-list .frame-11 h3 {
-  position: absolute;
-  height: 24px;
-  margin-left: 30px;
-  right: 48px;
-  top: 900px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #253858;
 }
