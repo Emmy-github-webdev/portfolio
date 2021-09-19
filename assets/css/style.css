@@ -613,15 +613,6 @@ nav {
   border-radius: 8px;
 }
 
-.skills .frame-12 .language-list .frame-9 img {
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  left: 48px;
-  top: 700px;
-  border: 1px solid #fff;
-}
-
 .skills .frame-12 .language-list .frame-10 img {
   position: absolute;
   width: 48px;
@@ -677,6 +668,15 @@ nav {
   display: flex;
   align-items: center;
   color: #253858;
+}
+
+.skills .frame-12 .language-list .frame-9 img {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 48px;
+  top: 700px;
+  border: 1px solid #fff;
 }
 
 .about-content .skills .frame-12 .language-list .frame-11 img {
