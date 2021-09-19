@@ -232,7 +232,7 @@ nav {
   position: absolute;
   width: 345px;
   height: 250px;
-  left: calc(50% - 375px/2);
+  left: calc(50% - 375px / 2);
   top: 92px;
 }
 
@@ -422,19 +422,19 @@ nav {
 }
 
 .work .card .work-content {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0;
-position: static;
-width: 295px;
-height: 294px;
-left: 16px;
-top: 248px;
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  position: static;
+  width: 295px;
+  height: 294px;
+  left: 16px;
+  top: 248px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
 }
 
 .work .card .work-content .work-title {
@@ -710,7 +710,7 @@ margin: 12px 0;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  letter-spacing: 0.03em; 
+  letter-spacing: 0.03em;
   color: #6070ff;
   flex: none;
   order: 0;
@@ -775,9 +775,15 @@ margin: 12px 0;
   width: 124px;
   height: 48px;
   left: 55px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
+  color: #396df2;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 .work-content .more-detail button:active {
@@ -793,7 +799,7 @@ margin: 12px 0;
   border-radius: 8px;
 }
 
-.work-content .more-detail button h4 {
+.more-detail button h4 {
   position: static;
   width: 100px;
   height: 24px;
@@ -834,7 +840,7 @@ margin: 12px 0;
   flex-direction: column;
   align-items: center;
   width: 327px;
-  left: calc(50% - 375px/2);
+  left: calc(50% - 375px / 2);
 }
 
 .about-me .about-content-top {
@@ -853,7 +859,7 @@ margin: 12px 0;
   margin: 24px 0;
 }
 
-.about-me .about-content-top h3 {
+.about-content-top h3 {
   position: static;
   width: 327px;
   height: 101px;
@@ -873,7 +879,7 @@ margin: 12px 0;
   margin: 12px 0;
 }
 
-.about-me .about-content-top p {
+.about-content-top p {
   position: static;
   width: 327px;
   height: 144px;
@@ -1036,7 +1042,7 @@ margin: 12px 0;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1087,7 +1093,7 @@ margin: 12px 0;
   margin: 0 0;
 }
 
-.about-content .skills .frame-12 .frame-7 h3 {
+.frame-12 .frame-7 h3 {
   position: absolute;
   height: 24px;
   left: 38px;
@@ -1100,8 +1106,7 @@ margin: 12px 0;
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000;
-  
+  color: #000; 
 }
 
 .about-content .skills .frame-12 .frame-7 .language-dropdown {
@@ -1137,7 +1142,7 @@ margin: 12px 0;
   top: 8px;
 }
 
-.about-content .skills .frame-12 .language-list ul {
+.skills .frame-12 .language-list ul {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1153,7 +1158,7 @@ margin: 12px 0;
   margin: 0 0;
 }
 
-.about-content .skills .frame-12 .language-list .frame-9 {
+.skills .frame-12 .language-list .frame-9 {
   position: static;
   width: 303px;
   height: 66.72px;
@@ -1167,7 +1172,7 @@ margin: 12px 0;
   margin: 12px 0;
 }
 
-.about-content .skills .frame-12 .language-list .frame-9 img {
+.skills .frame-12 .language-list .frame-9 img {
   position: absolute;
   width: 48px;
   height: 48px;
@@ -1176,7 +1181,7 @@ margin: 12px 0;
   border: 1px solid #fff;
 }
 
-.about-content .skills .frame-12 .language-list .frame-9 h3 {
+.skills .frame-12 .language-list .frame-9 h3 {
   position: absolute;
   height: 24px;
   margin-left: 36px;
@@ -1192,7 +1197,7 @@ margin: 12px 0;
   color: #253858;
 }
 
-.about-content .skills .frame-12 .language-list .frame-10 {
+.skills .frame-12 .language-list .frame-10 {
   position: static;
   width: 303px;
   height: 66.72px;
@@ -1206,7 +1211,7 @@ margin: 12px 0;
   margin: 12px 0;
 }
 
-.about-content .skills .frame-12 .language-list .frame-10 img {
+.skills .frame-12 .language-list .frame-10 img {
   position: absolute;
   width: 48px;
   height: 48px;
@@ -1215,7 +1220,7 @@ margin: 12px 0;
   border: 1px solid #fff;
 }
 
-.about-content .skills .frame-12 .language-list .frame-10 h3 {
+.skills .frame-12 .language-list .frame-10 h3 {
   position: absolute;
   height: 24px;
   margin-left: 30px;
@@ -1231,7 +1236,7 @@ margin: 12px 0;
   color: #253858;
 }
 
-.about-content .skills .frame-12 .language-list .frame-11 {
+.skills .frame-12 .language-list .frame-11 {
   position: static;
   width: 303px;
   height: 66.72px;
