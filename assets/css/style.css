@@ -469,40 +469,6 @@ nav {
   margin: 12px 0;
 }
 
-.work .card .work-content .work-title h3 {
-  position: static;
-  width: 295px;
-  height: 36px;
-  left: 0;
-  top: 0;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 12px 0;
-}
-
-.work .card .work-content .work-title .frame-1 ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  position: static;
-  width: 236px;
-  height: 32px;
-  left: 0;
-  top: 48px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 12px 0;
-}
-
 .about-content-top h3 {
   position: static;
   width: 327px;
@@ -539,7 +505,41 @@ nav {
   color: #000;
 }
 
-.about-content .skills .frame-8 img{
+.work .card .work-content .work-title h3 {
+  position: static;
+  width: 295px;
+  height: 36px;
+  left: 0;
+  top: 0;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.work .card .work-content .work-title .frame-1 ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 236px;
+  height: 32px;
+  left: 0;
+  top: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.about-content .skills .frame-8 img {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -812,7 +812,7 @@ nav {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color:#6070ff; 
+  color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -918,7 +918,7 @@ nav {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px; 
+  line-height: 24px;
   color: #344563;
   flex: none;
   order: 1;
@@ -972,7 +972,11 @@ nav {
   color: #7f8cff;
 }
 
-.about-me .about-content-top .social-about .social-text-about .social-icon-about {
+.about-me
+  .about-content-top
+  .social-about
+  .social-text-about
+  .social-icon-about {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1034,7 +1038,7 @@ nav {
   height: 48px;
   left: 0;
   top: calc(50% - 48px / 2 + 180.5px);
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
   flex: none;
@@ -1122,7 +1126,6 @@ nav {
   margin: 0 0;
 }
 
-
 .about-content .skills .frame-8 {
   position: static;
   width: 327px;
@@ -1160,7 +1163,7 @@ nav {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000;  
+  color: #000;
 }
 
 .about-content .skills .frame-9 img {
@@ -1189,7 +1192,7 @@ nav {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000; 
+  color: #000;
 }
 
 .about-content .skills .frame-12 .frame-7 .language-dropdown {
@@ -1217,7 +1220,13 @@ nav {
   margin: 0 0;
 }
 
-.about-content .skills .frame-12 .frame-7 .language-dropdown .dropdown-icon img {
+.about-content
+  .skills
+  .frame-12
+  .frame-7
+  .language-dropdown
+  .dropdown-icon
+  img {
   position: absolute;
   width: 14px;
   height: 8px;
@@ -1269,14 +1278,14 @@ nav {
   height: 24px;
   margin-left: 36px;
   right: 48px;
-  top: 710px; 
+  top: 710px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   display: flex;
-  align-items: center; 
+  align-items: center;
   color: #253858;
 }
 
