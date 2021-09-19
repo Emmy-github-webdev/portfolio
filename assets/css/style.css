@@ -613,6 +613,15 @@ nav {
   border-radius: 8px;
 }
 
+.skills .frame-12 .language-list .frame-9 img {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 48px;
+  top: 700px;
+  border: 1px solid #fff;
+}
+
 .skills .frame-12 .language-list .frame-10 img {
   position: absolute;
   width: 48px;
@@ -1297,15 +1306,6 @@ nav {
   order: 0;
   flex-grow: 0;
   margin: 0 0;
-}
-
-.skills .frame-12 .language-list .frame-9 img {
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  left: 48px;
-  top: 700px;
-  border: 1px solid #fff;
 }
 
 .about-content .skills .frame-12 .frame-7 .language-dropdown .dropdown-icon img {
