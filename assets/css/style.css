@@ -1093,6 +1093,89 @@ nav {
   margin: 0 0;
 }
 
+
+.about-content .skills .frame-8 {
+  position: static;
+  width: 327px;
+  height: 72px;
+  left: 0;
+  top: 320.15px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0 0;
+}
+
+.about-content .skills .frame-8 h3 {
+  position: absolute;
+  height: 24px;
+  left: 48px;
+  right: 48px;
+  top: 1000px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.about-content .skills .frame-8 img{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 26px;
+  top: 990px;
+  border-radius: 8px;
+}
+
+.about-content .skills .frame-9 {
+  position: static;
+  width: 327px;
+  height: 72px;
+  left: 0;
+  top: 392.15px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0 0;
+}
+
+.about-content .skills .frame-9 h3 {
+  position: absolute;
+  height: 24px;
+  left: 48px;
+  right: 48px;
+  top: 1100px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;  
+}
+
+.about-content .skills .frame-9 img {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 26px;
+  top: 1090px;
+  border-radius: 8px;
+}
+
 .frame-12 .frame-7 h3 {
   position: absolute;
   height: 24px;
@@ -1273,86 +1356,4 @@ nav {
   display: flex;
   align-items: center;
   color: #253858;
-}
-
-.about-content .skills .frame-8 {
-  position: static;
-  width: 327px;
-  height: 72px;
-  left: 0;
-  top: 320.15px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 0 0;
-}
-
-.about-content .skills .frame-8 h3 {
-  position: absolute;
-  height: 24px;
-  left: 48px;
-  right: 48px;
-  top: 1000px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #000;
-}
-
-.about-content .skills .frame-8 img{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 26px;
-  top: 990px;
-  border-radius: 8px;
-}
-
-.about-content .skills .frame-9 {
-  position: static;
-  width: 327px;
-  height: 72px;
-  left: 0;
-  top: 392.15px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  margin: 0 0;
-}
-
-.about-content .skills .frame-9 h3 {
-  position: absolute;
-  height: 24px;
-  left: 48px;
-  right: 48px;
-  top: 1100px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #000;  
-}
-
-.about-content .skills .frame-9 img {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 26px;
-  top: 1090px;
-  border-radius: 8px;
 }
