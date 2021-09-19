@@ -209,13 +209,9 @@ nav {
 
 .ellipse-3 {
   position: absolute;
-  width: 105px;
-  height: 105px;
-  left: 307px;
-  top: 152.24px;
-  border-radius: 50%;
+  left: 390px;
+  top: 270.24px;
   background: #6070ff;
-  border-radius:50% 50% 0 0 ;
 }
 
 .rectangle-4 {
@@ -1010,6 +1006,19 @@ margin: 12px 0;
   order: 3;
   flex-grow: 0;
   margin: 12px 0;
+}
+
+.about-me .about-content-top .resume:active {
+  background: #fff;
+  border: 1px solid #7f8cff;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.about-me .about-content-top .resume:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
 }
 
 .about-me .about-content-top .resume a {
